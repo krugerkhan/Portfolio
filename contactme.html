@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Contact Me</title>
+    <style>
+      body {
+        /* margin-top: 50px; */
+        background: rgb(1, 1, 41);
+      }
+      .message {
+        margin-top: 150px;
+        display: flexbox;
+        justify-content: space-between;
+        color: white;
+        font-size: 50px;
+        display: flex;
+        width: 80%;
+        height: 100vh;
+
+        /* display: flexbox; */
+      }
+      input {
+        font-size: 50px;
+        /* color: white; */
+        border-radius: 30px;
+        border-color: antiquewhite 30px solid;
+      }
+      .txt {
+        width: 700px;
+        height: 300px;
+        border-radius: 30px;
+        border-color: antiquewhite 30px solid;
+      }
+
+      label {
+        font-size: 25px;
+        color: white;
+      }
+      .solve {
+        width: 80%;
+        margin-top: 200px;
+        font-size: 50px;
+      }
+      .hit {
+        border: 10px solid;
+        width: 500px;
+        border-radius: 20px;
+      }
+      @media (max-width: 800px) {
+        .message {
+          display: flex;
+          flex-wrap: wrap;
+          width: 100%;
+        }
+        input {
+          font-size: 35px;
+        }
+        .txt {
+          width: 450px;
+          height: 300px;
+          border-radius: 30px;
+        }
+        .solve {
+          width: 80%;
+          margin-top: 0px;
+          font-size: 30px;
+        }
+        label {
+          font-size: 30px;
+        }
+        .hit {
+          border: 10px solid;
+          width: 400px;
+          border-radius: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <input type="checkbox" id="check" />
+    <label class="button bars" for="check"><i class="fas fa-bars"></i></label>
+    <div class="side_bar">
+      <div class="title">
+        <div class="logo">
+          <p>Amaka</p>
+          <h2>Web Developer</h2>
+        </div>
+        <label class="button-cancel" for="check"
+          ><i class="fas fa-times"></i
+        ></label>
+      </div>
+      <ul>
+        <li>
+          <a href="index.html"><i class="fas fa-qrcode"></i>Home</a>
+        </li>
+        <li>
+          <a href="about.html"><i class="fas fa-link"></i>About Me</a>
+        </li>
+        <!-- <li>
+          <a href="#"><i class="fas fa-stream"></i>Overview</a>
+        </li> -->
+        <!-- <li>
+          <a href="#"><i class="fas fa-calendar-week"></i>Events</a>
+        </li> -->
+        <li>
+          <!-- <a href="#"><i class="fas fa-question-circle"></i>About</a>
+        </li> -->
+        </li>
+
+        <li>
+          <a href="https://krugerkhan.github.io/Sunny-Side/ "
+            ><i class="fas fa-sliders-h"></i>Work</a
+          >
+        </li>
+        <li>
+          <a href="contactme.html"
+            ><i class="fas fa-phone-volume"></i>Contact</a
+          >
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-comments"></i>Feedback</a>
+        </li>
+      </ul>
+      <div class="media_icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a
+          href="https://www.instagram.com/invites/contact/?!=mzo34o7c2h8t&utm_content=1vbwt79"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </div>
+    <section class="message">
+      <div class="solve">
+        <h6>Contact Me</h6>
+        <h7>Got a Problem to Solve?</h7>
+      </div>
+      <forms>
+        <label class="name">Name:</label>
+        <br />
+
+        <input type="text" />
+        <br />
+        <br />
+        <label class="name" for="name">Email:</label>
+        <br />
+
+        <input type="text" />
+        <br />
+        <br />
+        <label class="name" for="name">Message</label>
+        <br />
+
+        <input class="txt" type="text" />
+        <br />
+        <br />
+        <p class="hit">
+          Hit Me Up <i class="fa-sharp fa-regular fa-paper-plane"></i>
+        </p>
+      </forms>
+    </section>
+  </body>
+</html>
